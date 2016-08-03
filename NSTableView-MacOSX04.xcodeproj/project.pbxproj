@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A122CA7D1D5181D200EBFB9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A122CA7C1D5181D200EBFB9D /* AppDelegate.m */; };
+		A122CA801D5181D200EBFB9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A122CA7F1D5181D200EBFB9D /* main.m */; };
+		A122CA821D5181D200EBFB9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A122CA811D5181D200EBFB9D /* Assets.xcassets */; };
+		A122CA851D5181D200EBFB9D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A122CA831D5181D200EBFB9D /* MainMenu.xib */; };
+		A122CA901D5181D200EBFB9D /* NSTableView_MacOSX04Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A122CA8F1D5181D200EBFB9D /* NSTableView_MacOSX04Tests.m */; };
+		A122CA9B1D5181D200EBFB9D /* NSTableView_MacOSX04UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A122CA9A1D5181D200EBFB9D /* NSTableView_MacOSX04UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A122CA8C1D5181D200EBFB9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A122CA701D5181D200EBFB9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A122CA771D5181D200EBFB9D;
+			remoteInfo = "NSTableView-MacOSX04";
+		};
+		A122CA971D5181D200EBFB9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A122CA701D5181D200EBFB9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A122CA771D5181D200EBFB9D;
+			remoteInfo = "NSTableView-MacOSX04";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A122CA781D5181D200EBFB9D /* NSTableView-MacOSX04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSTableView-MacOSX04.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A122CA7B1D5181D200EBFB9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A122CA7C1D5181D200EBFB9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A122CA7F1D5181D200EBFB9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A122CA811D5181D200EBFB9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A122CA841D5181D200EBFB9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A122CA861D5181D200EBFB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A122CA8B1D5181D200EBFB9D /* NSTableView-MacOSX04Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSTableView-MacOSX04Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A122CA8F1D5181D200EBFB9D /* NSTableView_MacOSX04Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTableView_MacOSX04Tests.m; sourceTree = "<group>"; };
+		A122CA911D5181D200EBFB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A122CA961D5181D200EBFB9D /* NSTableView-MacOSX04UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSTableView-MacOSX04UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A122CA9A1D5181D200EBFB9D /* NSTableView_MacOSX04UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTableView_MacOSX04UITests.m; sourceTree = "<group>"; };
+		A122CA9C1D5181D200EBFB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A122CA751D5181D200EBFB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A122CA881D5181D200EBFB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A122CA931D5181D200EBFB9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A122CA6F1D5181D200EBFB9D = {
+			isa = PBXGroup;
+			children = (
+				A122CA7A1D5181D200EBFB9D /* NSTableView-MacOSX04 */,
+				A122CA8E1D5181D200EBFB9D /* NSTableView-MacOSX04Tests */,
+				A122CA991D5181D200EBFB9D /* NSTableView-MacOSX04UITests */,
+				A122CA791D5181D200EBFB9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A122CA791D5181D200EBFB9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A122CA781D5181D200EBFB9D /* NSTableView-MacOSX04.app */,
+				A122CA8B1D5181D200EBFB9D /* NSTableView-MacOSX04Tests.xctest */,
+				A122CA961D5181D200EBFB9D /* NSTableView-MacOSX04UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A122CA7A1D5181D200EBFB9D /* NSTableView-MacOSX04 */ = {
+			isa = PBXGroup;
+			children = (
+				A122CA7B1D5181D200EBFB9D /* AppDelegate.h */,
+				A122CA7C1D5181D200EBFB9D /* AppDelegate.m */,
+				A122CA811D5181D200EBFB9D /* Assets.xcassets */,
+				A122CA831D5181D200EBFB9D /* MainMenu.xib */,
+				A122CA861D5181D200EBFB9D /* Info.plist */,
+				A122CA7E1D5181D200EBFB9D /* Supporting Files */,
+			);
+			path = "NSTableView-MacOSX04";
+			sourceTree = "<group>";
+		};
+		A122CA7E1D5181D200EBFB9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A122CA7F1D5181D200EBFB9D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A122CA8E1D5181D200EBFB9D /* NSTableView-MacOSX04Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A122CA8F1D5181D200EBFB9D /* NSTableView_MacOSX04Tests.m */,
+				A122CA911D5181D200EBFB9D /* Info.plist */,
+			);
+			path = "NSTableView-MacOSX04Tests";
+			sourceTree = "<group>";
+		};
+		A122CA991D5181D200EBFB9D /* NSTableView-MacOSX04UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A122CA9A1D5181D200EBFB9D /* NSTableView_MacOSX04UITests.m */,
+				A122CA9C1D5181D200EBFB9D /* Info.plist */,
+			);
+			path = "NSTableView-MacOSX04UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A122CA771D5181D200EBFB9D /* NSTableView-MacOSX04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A122CA9F1D5181D200EBFB9D /* Build configuration list for PBXNativeTarget "NSTableView-MacOSX04" */;
+			buildPhases = (
+				A122CA741D5181D200EBFB9D /* Sources */,
+				A122CA751D5181D200EBFB9D /* Frameworks */,
+				A122CA761D5181D200EBFB9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSTableView-MacOSX04";
+			productName = "NSTableView-MacOSX04";
+			productReference = A122CA781D5181D200EBFB9D /* NSTableView-MacOSX04.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A122CA8A1D5181D200EBFB9D /* NSTableView-MacOSX04Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A122CAA21D5181D200EBFB9D /* Build configuration list for PBXNativeTarget "NSTableView-MacOSX04Tests" */;
+			buildPhases = (
+				A122CA871D5181D200EBFB9D /* Sources */,
+				A122CA881D5181D200EBFB9D /* Frameworks */,
+				A122CA891D5181D200EBFB9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A122CA8D1D5181D200EBFB9D /* PBXTargetDependency */,
+			);
+			name = "NSTableView-MacOSX04Tests";
+			productName = "NSTableView-MacOSX04Tests";
+			productReference = A122CA8B1D5181D200EBFB9D /* NSTableView-MacOSX04Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A122CA951D5181D200EBFB9D /* NSTableView-MacOSX04UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A122CAA51D5181D200EBFB9D /* Build configuration list for PBXNativeTarget "NSTableView-MacOSX04UITests" */;
+			buildPhases = (
+				A122CA921D5181D200EBFB9D /* Sources */,
+				A122CA931D5181D200EBFB9D /* Frameworks */,
+				A122CA941D5181D200EBFB9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A122CA981D5181D200EBFB9D /* PBXTargetDependency */,
+			);
+			name = "NSTableView-MacOSX04UITests";
+			productName = "NSTableView-MacOSX04UITests";
+			productReference = A122CA961D5181D200EBFB9D /* NSTableView-MacOSX04UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A122CA701D5181D200EBFB9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					A122CA771D5181D200EBFB9D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A122CA8A1D5181D200EBFB9D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A122CA771D5181D200EBFB9D;
+					};
+					A122CA951D5181D200EBFB9D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A122CA771D5181D200EBFB9D;
+					};
+				};
+			};
+			buildConfigurationList = A122CA731D5181D200EBFB9D /* Build configuration list for PBXProject "NSTableView-MacOSX04" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A122CA6F1D5181D200EBFB9D;
+			productRefGroup = A122CA791D5181D200EBFB9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A122CA771D5181D200EBFB9D /* NSTableView-MacOSX04 */,
+				A122CA8A1D5181D200EBFB9D /* NSTableView-MacOSX04Tests */,
+				A122CA951D5181D200EBFB9D /* NSTableView-MacOSX04UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A122CA761D5181D200EBFB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A122CA821D5181D200EBFB9D /* Assets.xcassets in Resources */,
+				A122CA851D5181D200EBFB9D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A122CA891D5181D200EBFB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A122CA941D5181D200EBFB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A122CA741D5181D200EBFB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A122CA801D5181D200EBFB9D /* main.m in Sources */,
+				A122CA7D1D5181D200EBFB9D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A122CA871D5181D200EBFB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A122CA901D5181D200EBFB9D /* NSTableView_MacOSX04Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A122CA921D5181D200EBFB9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A122CA9B1D5181D200EBFB9D /* NSTableView_MacOSX04UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A122CA8D1D5181D200EBFB9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A122CA771D5181D200EBFB9D /* NSTableView-MacOSX04 */;
+			targetProxy = A122CA8C1D5181D200EBFB9D /* PBXContainerItemProxy */;
+		};
+		A122CA981D5181D200EBFB9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A122CA771D5181D200EBFB9D /* NSTableView-MacOSX04 */;
+			targetProxy = A122CA971D5181D200EBFB9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A122CA831D5181D200EBFB9D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A122CA841D5181D200EBFB9D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A122CA9D1D5181D200EBFB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A122CA9E1D5181D200EBFB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A122CAA01D5181D200EBFB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSTableView-MacOSX04/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mac.NSTableView-MacOSX04";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A122CAA11D5181D200EBFB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSTableView-MacOSX04/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mac.NSTableView-MacOSX04";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A122CAA31D5181D200EBFB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSTableView-MacOSX04Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mac.NSTableView-MacOSX04Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTableView-MacOSX04.app/Contents/MacOS/NSTableView-MacOSX04";
+			};
+			name = Debug;
+		};
+		A122CAA41D5181D200EBFB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSTableView-MacOSX04Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mac.NSTableView-MacOSX04Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTableView-MacOSX04.app/Contents/MacOS/NSTableView-MacOSX04";
+			};
+			name = Release;
+		};
+		A122CAA61D5181D200EBFB9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSTableView-MacOSX04UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mac.NSTableView-MacOSX04UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSTableView-MacOSX04";
+			};
+			name = Debug;
+		};
+		A122CAA71D5181D200EBFB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSTableView-MacOSX04UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mac.NSTableView-MacOSX04UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSTableView-MacOSX04";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A122CA731D5181D200EBFB9D /* Build configuration list for PBXProject "NSTableView-MacOSX04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A122CA9D1D5181D200EBFB9D /* Debug */,
+				A122CA9E1D5181D200EBFB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A122CA9F1D5181D200EBFB9D /* Build configuration list for PBXNativeTarget "NSTableView-MacOSX04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A122CAA01D5181D200EBFB9D /* Debug */,
+				A122CAA11D5181D200EBFB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A122CAA21D5181D200EBFB9D /* Build configuration list for PBXNativeTarget "NSTableView-MacOSX04Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A122CAA31D5181D200EBFB9D /* Debug */,
+				A122CAA41D5181D200EBFB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A122CAA51D5181D200EBFB9D /* Build configuration list for PBXNativeTarget "NSTableView-MacOSX04UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A122CAA61D5181D200EBFB9D /* Debug */,
+				A122CAA71D5181D200EBFB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A122CA701D5181D200EBFB9D /* Project object */;
+}
