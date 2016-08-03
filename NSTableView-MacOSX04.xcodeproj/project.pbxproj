@@ -13,6 +13,12 @@
 		A122CA851D5181D200EBFB9D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A122CA831D5181D200EBFB9D /* MainMenu.xib */; };
 		A122CA901D5181D200EBFB9D /* NSTableView_MacOSX04Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A122CA8F1D5181D200EBFB9D /* NSTableView_MacOSX04Tests.m */; };
 		A122CA9B1D5181D200EBFB9D /* NSTableView_MacOSX04UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A122CA9A1D5181D200EBFB9D /* NSTableView_MacOSX04UITests.m */; };
+		A122CAAB1D5181FD00EBFB9D /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A122CAA91D5181FD00EBFB9D /* MainWindowController.m */; };
+		A122CAAC1D5181FD00EBFB9D /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A122CAAA1D5181FD00EBFB9D /* MainWindowController.xib */; };
+		A122CAB01D51821400EBFB9D /* LanSearchWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A122CAAE1D51821400EBFB9D /* LanSearchWindowController.m */; };
+		A122CAB11D51821400EBFB9D /* LanSearchWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A122CAAF1D51821400EBFB9D /* LanSearchWindowController.xib */; };
+		A122CABA1D5190A600EBFB9D /* LanSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A122CAB91D5190A600EBFB9D /* LanSearchCell.m */; };
+		A122CAC01D519F1300EBFB9D /* FlippedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A122CABF1D519F1300EBFB9D /* FlippedView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,16 @@
 		A122CA961D5181D200EBFB9D /* NSTableView-MacOSX04UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSTableView-MacOSX04UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A122CA9A1D5181D200EBFB9D /* NSTableView_MacOSX04UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTableView_MacOSX04UITests.m; sourceTree = "<group>"; };
 		A122CA9C1D5181D200EBFB9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A122CAA81D5181FD00EBFB9D /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		A122CAA91D5181FD00EBFB9D /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		A122CAAA1D5181FD00EBFB9D /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		A122CAAD1D51821400EBFB9D /* LanSearchWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanSearchWindowController.h; sourceTree = "<group>"; };
+		A122CAAE1D51821400EBFB9D /* LanSearchWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanSearchWindowController.m; sourceTree = "<group>"; };
+		A122CAAF1D51821400EBFB9D /* LanSearchWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LanSearchWindowController.xib; sourceTree = "<group>"; };
+		A122CAB81D5190A600EBFB9D /* LanSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanSearchCell.h; sourceTree = "<group>"; };
+		A122CAB91D5190A600EBFB9D /* LanSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanSearchCell.m; sourceTree = "<group>"; };
+		A122CABE1D519F1300EBFB9D /* FlippedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlippedView.h; sourceTree = "<group>"; };
+		A122CABF1D519F1300EBFB9D /* FlippedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlippedView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +92,10 @@
 		A122CA6F1D5181D200EBFB9D = {
 			isa = PBXGroup;
 			children = (
+				A122CAB81D5190A600EBFB9D /* LanSearchCell.h */,
+				A122CAB91D5190A600EBFB9D /* LanSearchCell.m */,
+				A122CABE1D519F1300EBFB9D /* FlippedView.h */,
+				A122CABF1D519F1300EBFB9D /* FlippedView.m */,
 				A122CA7A1D5181D200EBFB9D /* NSTableView-MacOSX04 */,
 				A122CA8E1D5181D200EBFB9D /* NSTableView-MacOSX04Tests */,
 				A122CA991D5181D200EBFB9D /* NSTableView-MacOSX04UITests */,
@@ -98,6 +118,12 @@
 			children = (
 				A122CA7B1D5181D200EBFB9D /* AppDelegate.h */,
 				A122CA7C1D5181D200EBFB9D /* AppDelegate.m */,
+				A122CAA81D5181FD00EBFB9D /* MainWindowController.h */,
+				A122CAA91D5181FD00EBFB9D /* MainWindowController.m */,
+				A122CAAA1D5181FD00EBFB9D /* MainWindowController.xib */,
+				A122CAAD1D51821400EBFB9D /* LanSearchWindowController.h */,
+				A122CAAE1D51821400EBFB9D /* LanSearchWindowController.m */,
+				A122CAAF1D51821400EBFB9D /* LanSearchWindowController.xib */,
 				A122CA811D5181D200EBFB9D /* Assets.xcassets */,
 				A122CA831D5181D200EBFB9D /* MainMenu.xib */,
 				A122CA861D5181D200EBFB9D /* Info.plist */,
@@ -236,7 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A122CA821D5181D200EBFB9D /* Assets.xcassets in Resources */,
+				A122CAAC1D5181FD00EBFB9D /* MainWindowController.xib in Resources */,
 				A122CA851D5181D200EBFB9D /* MainMenu.xib in Resources */,
+				A122CAB11D51821400EBFB9D /* LanSearchWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +289,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A122CAAB1D5181FD00EBFB9D /* MainWindowController.m in Sources */,
+				A122CAC01D519F1300EBFB9D /* FlippedView.m in Sources */,
+				A122CABA1D5190A600EBFB9D /* LanSearchCell.m in Sources */,
 				A122CA801D5181D200EBFB9D /* main.m in Sources */,
 				A122CA7D1D5181D200EBFB9D /* AppDelegate.m in Sources */,
+				A122CAB01D51821400EBFB9D /* LanSearchWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
