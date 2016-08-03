@@ -24,15 +24,13 @@
 
     self.window.contentView.wantsLayer = YES;
 
-    
-    //_dataSoruce = [[NSMutableArray alloc]init];
-    _dataSoruce = [NSMutableArray arrayWithArray:@[@"ZFHDUWR2EYZN846XPZEJ",@"GVYC6E4E5CBEPDKA111A",@"H16WCF4ZCC5VAU38111A",@"GX3SBN7XS1M4551E111A",@"ZPJJJBCT157F9UVB111A",@"E1YAAD5WRTVC8N6GUHM1"]];
+    _dataSoruce = [NSMutableArray arrayWithArray:@[@"ZFHDUWR2EYZN846XPZEJ",@"GVYC6E4E5CBEPDKA111A",@"H16WCF4ZCC5VAU38111A",@"GX3SBN7XS1M4551E111A",@"ZPJJJBCT157F9UVB111A",@"E1YAAD5WRTVC8N6GUHM1",@"ZFHDUWR2EYZN846XPZEJ",@"GVYC6E4E5CBEPDKA111A",@"H16WCF4ZCC5VAU38111A",@"GX3SBN7XS1M4551E111A",@"ZPJJJBCT157F9UVB111A",@"E1YAAD5WRTVC8N6GUHM1"]];
 
-    
-    _myScrollView = [[NSScrollView alloc] initWithFrame:NSMakeRect(0, 0, 480, 568)];
+#warning 必须设置scrollview,否则超出页面无法滚动
+    _myScrollView = [[NSScrollView alloc] initWithFrame:NSMakeRect(0, 0, self.window.frame.size.width, self.window.frame.size.height)];
     [_myScrollView setAutoresizesSubviews:YES];
     
-    _myTableView  = [[NSTableView alloc] initWithFrame:NSMakeRect(0, 0, 480, 568)];
+    _myTableView  = [[NSTableView alloc] initWithFrame:NSMakeRect(0, 0, self.window.frame.size.width, self.window.frame.size.height)];
 
     [_myTableView setAutosaveName:@"downloadTableView"];
 
@@ -60,24 +58,24 @@
     _myTableView.delegate = self;
     
     [_myScrollView setDocumentView:_myTableView];
+    [self.window.contentView addSubview:_myScrollView];
 
     
-#define keyColumnPrefix @"YouColumn"
-    [self addColumn:keyColumnPrefix"1" withTitle:@"column1"];
+//#define keyColumnPrefix @"YouColumn"
+//    //[self addColumn:keyColumnPrefix"1" withTitle:@"column1"];
+//    [self addColumn:keyColumnPrefix"1" withTitle:@"lan search"];
+
+    NSTableColumn *column=[[NSTableColumn alloc] initWithIdentifier:@"lanSearchColumn"];
     
+    [[column headerCell] setStringValue:@"Lan search"];
+    [[column headerCell] setAlignment:NSCenterTextAlignment];
+    [column setWidth:self.window.frame.size.width];  //必须固定值
+
+    [column setMinWidth:self.window.frame.size.width];
+    [column setEditable:NO];
+    [column setResizingMask:NSTableColumnAutoresizingMask | NSTableColumnUserResizingMask];
+    [_myTableView addTableColumn:column];
     
-//    [self addColumn:keyColumnPrefix"2" withTitle:@"column2"];
-//    [self addColumn:keyColumnPrefix"3" withTitle:@"column3"];
-    
-//    NSTableColumn *columnNum = [[NSTableColumn alloc]initWithIdentifier:@"LanSearchCell"];
-//    [columnNum setResizingMask:NSTableColumnAutoresizingMask | NSTableColumnUserResizingMask];
-//    [_myTableView addTableColumn:columnNum];
-    
-    
-    //[self.window.contentView addSubview:_myTableView];
-    
-    
-    [self.window.contentView addSubview:_myScrollView];
 
 }
 - (void)addColumn:(NSString*)newid withTitle:(NSString*)title
@@ -87,15 +85,17 @@
     NSTableColumn *column=[[NSTableColumn alloc] initWithIdentifier:newid];
     [[column headerCell] setStringValue:title];
     [[column headerCell] setAlignment:NSCenterTextAlignment];
+    [[column headerCell] setBackgroundColor:[NSColor clearColor]];
+    
     if(columnNum == 1){
-        [column setWidth:480];
+        [column setWidth:self.window.frame.size.width];  //必须固定值
     }
 //    }else if(columnNum == 2) {
 //        [column setWidth:150];
 //    }else if(columnNum == 3) {
 //        [column setWidth:130];
 //    }
-    [column setMinWidth:480];
+    [column setMinWidth:self.window.frame.size.width];
     [column setEditable:NO];
     [column setResizingMask:NSTableColumnAutoresizingMask | NSTableColumnUserResizingMask];
     [_myTableView addTableColumn:column];
@@ -124,7 +124,9 @@
     LanSearchCell * cell = [tableView makeViewWithIdentifier:[tableColumn identifier] owner:self];
     cell.layer.backgroundColor = [[NSColor brownColor] CGColor];
 
-    if([[tableColumn identifier] isEqualToString:keyColumnPrefix"1"]) {
+    //lanSearchColumn
+//    if([[tableColumn identifier] isEqualToString:keyColumnPrefix"1"]) {
+    if([[tableColumn identifier] isEqualToString:@"lanSearchColumn"]) {
     
         if (!cell)
         {
